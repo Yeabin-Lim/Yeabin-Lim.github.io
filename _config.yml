@@ -1,0 +1,49 @@
+# Site Settings
+baseurl: ""
+url : "https://Yeabin-Lim.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Grape Theme
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/smile.png
+    username : Yeabin Lim
+    description : "Major : Mathematics"
+    experience :
+      - start : 
+        end : 
+        experience : 
+    skills : 
+      - skill : ""
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email:  # Full email address, e.g. "sample@google.com"
+    linkedin:  # Full URL 
+    github: Yeabin-Lim
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram: yeabin_lim
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 2
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
