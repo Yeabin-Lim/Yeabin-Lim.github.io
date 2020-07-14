@@ -4,12 +4,12 @@ url : "https://Yeabin-Lim.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Yeabin-Lim
+  title : Grape Them
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/profile.png
     username : Yeabin Lim
     description : "Major : Mathematics"
     experience :
