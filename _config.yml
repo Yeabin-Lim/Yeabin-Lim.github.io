@@ -17,8 +17,8 @@ theme_settings :
         end : 
         experience : 
     skills : 
-      - skill : ""
-        value : 85  # Percent value
+      - skill : "python"
+        value : 80  # Percent value
         
   # Icons
   icons :
