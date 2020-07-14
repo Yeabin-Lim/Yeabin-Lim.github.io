@@ -1,14 +1,14 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2020.06.04 - 2020.06.11
+    url : https://github.com/Yeabin-Lim/crawling_multicampus # Full URL
+    image : "mail.PNG" # path: assets/project/
+    date : 2020.06.04 - 2020.06.12
     title : Crawling Mini project
     summary : Mini project!
     description : 날씨와 그에 맞는 음악, 당일 뉴스, 채용공고 등 다양한 정보를 크롤링을 통해 수집하고 이메일로 정보를 전송하는 미니 프로젝트
     contents :
-        - title : 1. Crawling
+        - title : Crawling
           image : 
           description : <li>Crawling</li>
             <li>DB</li> 
