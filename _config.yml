@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/profile.JPG
+    image : assets/img/Snapseed.JPG
     username : Yeabin Lim
     description : "Major : Mathematics"
     experience :
