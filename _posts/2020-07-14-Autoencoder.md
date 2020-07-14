@@ -19,7 +19,7 @@ comments : True
 
 * 왼쪽의 경우 단층구조(Hidden layer가 1개), 오른쪽의 경우 복층구조(Hidden layer가 여러개)이다.
 
-  ![autoencoder](../assets/img/autoencoder.PNG)
+  ![autoencoder image]({{ site.baseurl }}/assets/img/autoencoder-1594706468099.PNG)
 
   * 데이터를 압축/확장 하는 과정을 Encoder, 데이터를 복원하는 과정을 Decoder라고 한다.
 
