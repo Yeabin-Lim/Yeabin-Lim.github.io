@@ -1,1 +1,2 @@
-# Yeabin-Lim.github.io
+* [blog](http://yeabin-lim.github.io/)
+

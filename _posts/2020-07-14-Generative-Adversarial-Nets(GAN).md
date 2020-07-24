@@ -48,3 +48,4 @@ comments : True
   * 학습이 진행되면서 G(z)의 분포가 x의 분포와 유사해지는 것을 확인할 수 있다.
 
 참고: [Generative Adversarial Nets](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
+
