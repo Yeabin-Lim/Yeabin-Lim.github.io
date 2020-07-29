@@ -86,7 +86,9 @@ nltk.pos_tag(token)
   
   * Penn Treebank corpus에 사용된 품사 목록
   
-    [![POS_list image]({{ site.baseurl }}/assets/pos_list.PNG)](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
+    ![POS_list image]({{ site.baseurl }}/assets/pos_list.PNG)
+    
+    [출처](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
 ### 히든 마코프 모델과 POS-tagging
 
@@ -99,4 +101,5 @@ nltk.pos_tag(token)
 * HMM의 전이확률(transition probability)와 출력확률(Emission probability)를 이용하여 POS tagging을 한다.
 
 * 문장이 길면 조합이 많아지므로 `Viterbi` 알고리즘을 사용해 가장 확률이 높은 tag 시퀀스로 품사를 태깅한다.
+  
   * P(t = N,V,N| w = they can fish),P(t = N,V,V| w = they can fish), P(t = V,V,N| w = they can fish) 등의 확률을 계산하여 `they`, `can`, `fish` 에 품사를 태깅한다.
