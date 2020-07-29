@@ -85,8 +85,7 @@ nltk.pos_tag(token)
   * 많이 사용하는 학습용 데이터로는 Penn Treebank corpus, Brown corpus, NPS Char corpus 등이 있다.
   
   * Penn Treebank corpus에 사용된 품사 목록
-  
-    ![POS_list image]({{ site.baseurl }}/assets/pos_list.PNG)
+  ![pos image]({{ site.baseurl }}/assets/img/pos_list.PNG)
     
     [출처](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
@@ -95,9 +94,8 @@ nltk.pos_tag(token)
 \* [히든 마코프 게시글](https://yeabin-lim.github.io/2020-07-24-Hidden-Markov-Model.html)
 
 * `They can fish.`와 같은 문장에서 HMM 모델을 사용하여 pos tagging이 되는 과정을 살펴보자.
-
-  ![POS_HMM image]({{ site.baseurl }}/assets/pos_hmm.PNG)
-
+![poshmm image]({{ site.baseurl }}/assets/img/pos_hmm.PNG)
+  
 * HMM의 전이확률(transition probability)와 출력확률(Emission probability)를 이용하여 POS tagging을 한다.
 
 * 문장이 길면 조합이 많아지므로 `Viterbi` 알고리즘을 사용해 가장 확률이 높은 tag 시퀀스로 품사를 태깅한다.
